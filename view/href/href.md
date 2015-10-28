@@ -2,8 +2,8 @@
 @parent can.view.bindings
 
 @deprecated {2.3} Use [can.view.bindings.toChild one way binding] with the
-[can.stache.helpers.routeUrl routeUrl helper] instead like: 
-`{href}="routeUrl(prop=value)"`.
+[can.stache.helpers.routeUrl routeUrl helper] instead like:
+`{$href}="routeUrl(prop=value)"`.
 
 @description Sets an element's href attribute so that it's url will set the specified attribute values on [can.route].
 
